@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity=""
+    android:orientation="vertical"
+    android:background="@color/verdinho"
+    tools:context=".TelaInfos"
+    tools:ignore="ExtraText">
+
+    <ImageButton
+        android:id="@+id/btn_voltar"
+        android:layout_width="54dp"
+        android:layout_height="40dp"
+        android:background="@color/verdinho"
+        android:src="@android:drawable/ic_menu_revert" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="755dp"
+        android:gravity="center"
+        android:background="@color/verdeclaro"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageViewt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/verdefundo" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/verdinho"
+        />
+
+
+</LinearLayout>
